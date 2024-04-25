@@ -42,7 +42,7 @@ function App() {
             <p>|</p>
           </div>
           <div>
-            <a href="#">โปรแกรม</a>
+            <a href="/programs.html">โปรแกรม</a>
           </div>
           <div>
             <p>|</p>
@@ -52,7 +52,7 @@ function App() {
           <div className=''>
             <img src={isMobile ? "https://exsinnot.com/img/prof2.jpg" : "https://exsinnot.com/img/prof.png"} alt="profile" className='w-64 md:w-fb mx-auto md:ml-20 rounded-full md:rounded-none mt-5 ' />
           </div>
-          <div className='md:w-1/2 mt-8 md:mt-64 md:ml-24'>
+          <div className='md:w-1/2 mt-8 md:mt-24 md:ml-24'>
             <p className='text-4xl md:text-9xl font-semibold mb-4'>พงศธร</p>
             <p className='text-4xl md:text-9xl font-semibold mb-4'>พิพัฒน์ไพฑูรย์</p>
             <p className='text-lg md:text-3xl mb-4 md:ml-24'>[โปรแกรมเมอร์ ,นักศึกษา]</p>
@@ -61,7 +61,10 @@ function App() {
             <p className='text-lg md:text-3xl mb-4 md:ml-24'>อีเมล = “unn.pongsathorn2@gmail.com”</p>
             <p className='text-lg md:text-3xl mb-4 md:ml-24' onClick={()=>{
               window.open("https://www.facebook.com/WhyExsinnot/", "_blank");
-            }}>เฟซบุ๊ก = “พงศธร ตาอั๋น”</p>
+            }}>Facebook = “พงศธร ตาอั๋น”</p>
+            <p className='text-lg md:text-3xl mb-4 md:ml-24' onClick={()=>{
+              window.open("https://github.com/Exsinnot/", "_blank");
+            }}>Github = “Exsinnot”</p>
 
 
           </div>
