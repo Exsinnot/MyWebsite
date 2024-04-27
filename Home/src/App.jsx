@@ -18,6 +18,7 @@ function App() {
   }, []);
   return (
     <>
+    
       <div className='bg-white' style={{ fontFamily: 'Kanit, sans-serif', userSelect: 'none', backgroundSize: 'cover', backgroundImage: 'url("https://i.pinimg.com/originals/e3/ca/2c/e3ca2ceaaa243751d4de1ea9bc1f0834.jpg")' }}>
         <header style={{ fontFamily: 'Kanit, sans-serif' }} className='bg-black flex items-center justify-between pr-5 pl-5 md:pr-12 md:pl-12 md:h-28 font-bold text-white fixed w-full top-0 text-sm md:text-4xl h-20'>
           <div>
@@ -74,6 +75,7 @@ function App() {
         <div>
           <div className='h-fit w-fit md:p-4 p-2 m-auto text-center bg-gray-300 justify-center text-black md:text-4xl text-xl rounded-full font-bold'>
             <p >ทักษะและความสามารถ</p>
+            
           </div>
           <div className='w-3/4 m-auto flex flex-col'>
             <div className='w-full flex flex-row mt-5 h-10 md:h-64'>
